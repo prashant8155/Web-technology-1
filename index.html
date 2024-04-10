@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body data-spy="scroll" data-target="#navbarResponsive">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold col-md-5 text-white pl-5 " href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#Contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#Skill">Skill</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#About Me">About Me</a>
+              </li>
+              
+    
+            
+                  
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <!-------------nav end------------->
+
+      <!-------------Home section start------------>
+        <div id="Home" class=" mx-auto imgg">
+            <img src="img/background.png" class="img-fluid pimg"  alt="rounded image ">
+         </div>
+        <div class=" text text-center">
+            <h5 class="jjj text-white">Hello, I'M</h3>
+            <h1 class="text-white">Prashant pandey</h2>
+           <a href="img/prashant-pandey-cv.pdf"> <button class="btn">CV</button></a>
+        </div> 
+       <!---------------Home section end  --------->
+       <!-----------------------about me start---------------->
+       <div id="About Me" class=" offset mt-3 mb-5">
+        <div class="heading text-center">
+            <h3 class="display-4 fw-bold">About Me</h3>
+            <hr class="w=50 mx-auto pb-5">
+        </div>
+        <div class="row d-flex">
+            <div class="col-lg-6 col-md-6 col-12">
+                <img src="img/Untitled-3.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+            <h3 class="display-3 text-center "> wana know me?</h3>
+            <hr class="w=50 mx-auto pb-5">
+            <p class="fw-bold mt-5 paragraph">Meet Prashant Pandey, an IT student currently studying at Texas International College in Kathmandu, Nepal. Passionate about both technology and sports, Prashant spends his days delving into IT subjects while enjoying his free time playing cricket and football. With a zest for learning and a love for sports, Prashant embodies a balanced lifestyle that encompasses both academic excellence and athletic pursuits.</p>
+            </div>
+        </div>
+       </div>
+       <!----------about me end----------->
+       <!-------------SKILL SECTION START------------>
+       <div id="Skill" class="text-center mt-3 mb-5">
+        <h3 class="fw-bold display-3">My Skill</h3>
+        <h5>I can do all neat stuff</h5>
+        <hr class="w=50 mx-auto pb-5">
+       </div>
+       <div class="row">
+       <div class="col-lg-4 col-md-6 col-12 d-flex skill">
+        <div class="card card1">
+          <img src="img/laptop-fill.svg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-center fw-bold">Full Stack developer</h5>
+            <p class="card-text">My skill encompasses programming languages, frameworks, and technologies for creating user interfaces, managing databases, and handling server-side logic, allowing me to create dynamic and robust web solutions</p>
+            
+          </div>
+          
+        </div>
+       
+        
+
+       </div>
+       <div class="col-lg-4 col-md-6 col-12 d-flex skill">
+        <div class="card card1">
+          <img src="img/camera-reels.svg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-center fw-bold">Video editing</h5>
+            <p class="card-text"> My expertise lies in editing raw footage, adding effects, transitions, and soundtracks to create cohesive and engaging videos that captivate audiences and convey messages effectively.</p>
+            
+          </div>
+          
+        </div>
+       
+        
+
+       </div>
+       <div class="col-lg-4 col-md-6 col-12 d-flex skill">
+        <div class="card card1">
+          <img src="img/camera-fill.svg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-center fw-bold">Photography</h5>
+            <p class="card-text">who captures moments, emotions, and beauty through the lens of a camera, creating lasting impressions and memories through my art.</p>
+            
+          </div>
+          
+        </div>
+       
+        
+
+       </div>
+      </div>
+      <!--------SKILL SECTION END-------------------->
+
+<!--------FORM SECTION start-------------------->
+<title>Add Work Experience and Skills</title>
+        </head>
+        <body>
+          
+            <div class="forms-container">
+                <div class="left-form">
+                  
+            <h1>Add Work Experience</h1>
+            <form id="experienceForm" action="/add_experience" method="POST" class="clearfix">
+                <label for="job_title">Job Title:</label>
+                <input type="text" id="job_title" name="job_title" required><br><br>
+                
+                <label for="company_name">Company Name:</label>
+                <input type="text" id="company_name" name="company_name" required><br><br>
+                
+                <label for="dates_employment">Dates of Employment:</label>
+                <input type="text" id="dates_employment" name="dates_employment" required><br><br>
+                
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required><br><br>
+                
+                <label for="responsibilities">Responsibilities:</label><br>
+                <input type="text" id="responsibilities" name="responsibilities" required><br><br>
+                
+                <button type="submit" class="submit-btn">Submit</button> 
+            </form>
+            </div>
+
+        
+           <div class="right-form">
+             <h1>Add Skills</h1>
+            <form id="skillsForm" action="/add_skills" method="POST" class="clearfix">
+                <label for="technical_skills">Technical Skills:</label>
+                <input type="text" id="technical_skills" name="technical_skills" required><br><br>
+                
+                <label for="soft_skills">Soft Skills:</label>
+                <input type="text" id="soft_skills" name="soft_skills" required><br><br>
+                
+                <label for="language_proficiency">Language Proficiency:</label>
+                <input type="text" id="language_proficiency" name="language_proficiency" required><br><br>
+                
+                <label for="certifications">Certifications:</label>
+                <input type="text" id="certifications" name="certifications" required><br><br>
+                
+                <label for="creative_skills">Creative Skills:</label>
+                <input type="text" id="creative_skills" name="creative_skills" required><br><br>
+                
+                <button type="submit" class="submit-btn">Submit</button> 
+            </form>
+        </div>
+    </div>
+        
+            <div id="skillsList">
+                <!-- Skills and experience will be displayed here -->
+            </div>
+          
+<!--------FORM SECTION END-------------------->
+
+
+
+      <!--------CONTACT SECTION START-------------------->
+<div id="Contact" class="mt-5 mb-5">
+  <div class="heading text-center">
+    <h3 class="display-4 fw-bold">Contact</h3>
+    <hr class="w=50 mx-auto pb-5">
+</div>
+<div class=" contact ">
+  <div class="text-center">
+  <h1>contact me</h1>
+  <hr class="w=50 mx-auto pb-5">
+</div>
+<div class="text-center">
+  <form action="post">
+ <div class="cnt">
+  <input type="text" id="name" name="Full Name" placeholder="fullname"><br><br>
+  <input type="mail" id="Mail" name="gmail" placeholder="Your gmail"><br><br>
+  <input type="text" id="Problem" name="your problem" placeholder="yourproblem"><br><br>
+ <textarea name="message" id="message box"cols="23" rows="5" placeholder="Send message"></textarea><br><br>
+ </div>
+ <a href="#"><button type="post">send</button></a>
+</form>
+
+</div>
+
+<div class=" icon d-flex">
+ 
+      <a href="https://www.facebook.com/prashant.panday.7503/"><img class="icn" src="img/facebook.svg" alt=""></a>
+      <a href="https://www.instagram.com/prashantpanday10/"><img class="in" src="img/instagram.svg" alt=""></a>
+  
+</div>
+
+</div>
+
+</div>
+      <!--------CONTACT SECTION END-------------------->
+      <!--------FOOTER SECTION START-------------------->
+
+
+      
+      <!--------FOOTER SECTION END-------------------->
+
+
+
+<script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

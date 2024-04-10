@@ -1,0 +1,229 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    padding-left: 50px !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f9004d !important;
+    transition: 0.3s !important;
+}
+
+.btn {
+    background-color: rgb(134, 157, 209);
+    color: white;
+    text-decoration: none;
+    border: spx solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 15px;
+    transition: 2s;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d ;
+     cursor: pointer;
+    }
+    
+
+.text {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.jjj {
+    font-size: 3em !important;
+    font-weight: 300 !important;
+}
+
+.text h1 {
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+.row img {
+    border-radius: 30%;
+    padding-left: 50px;
+}
+
+.paragraph {
+    padding-left: 30px;
+}
+.card-img-top{
+    height: 5em;
+}
+.contact{
+    max-width: 600px;
+    border: 0.5px solid;
+    padding: 20px;
+    margin: 0 auto;
+}
+button{
+    text-decoration: none;
+    border: spx solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 15px;
+    transition: 2s;
+    margin-top: 10px;
+}
+.cnt{
+    border-radius: 10px !important;
+}
+.icn{
+    height: 3em !important;
+}
+.in{
+    height: 3em !important;
+padding-left: 20px;
+}
+
+@media screen and (max-width:1167px) {
+    .jjj {
+        font-size: 2em !important;
+        font-weight: 200 !important;
+    }
+
+    .text h1 {
+        font-size: 4em;
+
+    }
+
+    .text {
+        top: 30%;
+        width: 80%;
+        max-width: 80%;
+    } 
+}
+.forms-container {
+  display: flex;
+  justify-content: space-between; /* Distribute forms evenly */
+  margin-top: 10px; /* Add margin for spacing */
+}
+
+.forms-container form {
+  flex: 6; /* Each form takes up equal space */
+  padding: 20px; /* Add padding for spacing inside forms */
+
+  border-radius: 50px; /* Add border radius for rounded corners */
+}
+
+.forms-container form input[type="text"],
+.forms-container form textarea {
+  
+  width:100%; /* Make input fields 100% width */
+  padding: 10px; /* Add padding for input fields */
+  margin-bottom: 0.3px; /* Add margin for spacing between input fields */
+  border: 1px solid #ddd; /* Add border for input fields */
+  border-radius: 13px; /* Add border radius for rounded input fields */
+  box-sizing: border-box; /* Include padding and border in input field width */
+}
+
+.forms-container form .submit-btn {
+  display: block;
+  width: 100%; /* Make submit button 100% width */
+  padding: 10px; /* Add padding for button */
+  background-color: #007bff; /* Add background color for button */
+  color: #fff; /* Add text color for button */
+  border: none; /* Remove border */
+  border-radius: 13px; /* Add border radius for rounded button */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add transition for hover effect */
+}
+
+.forms-container form .submit-btn:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+
+@media screen and (max-width:767px) {
+    .jjj {
+        font-size: 2em !important;
+        font-weight: 200 !important;
+    }
+
+    .text h1 {
+        font-size: 4em;
+    }
+
+    .text {
+        top: 20%;
+        width: 50%;
+        max-width: 50%;
+    }
+
+
+}
+@media screen and (max-width:685px) {
+    .jjj {
+        font-size: 2em !important;
+        font-weight: 200 !important;
+    }
+
+    .text h1 {
+        font-size: 3em;
+    }
+
+    .text {
+        top: 15%;
+        width: 50%;
+        max-width: 80%;
+    } 
+}
+
+
+@media screen and (max-width:413px) {
+
+    .jjj {
+        font-size: 0.9em !important;
+        font-weight: 100 !important;
+    }
+    
+
+    .text h1 {
+        font-size: 1em;
+
+    }
+
+    .text {
+        top: 15%;
+        width: 50%;
+        max-width: 50%;
+    }
+
+    button {
+        padding: 10px 20px; 
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 440px) {
+    .jjj {
+        font-size: 0.9em !important;
+        font-weight: 100 !important;
+    }
+
+    .text h1 {
+        font-size: 1em;
+
+    }
+
+    .text {
+        top: 15%;
+        width: 50%;
+        max-width: 50%;
+    }
+
+    button {
+        padding: 10px 20px; 
+        margin-top: 10px;
+    } 
+}
